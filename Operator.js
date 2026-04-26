@@ -47,6 +47,21 @@ console.log(w);
 
 let m = true || false;
 let n = false|| true;
+let o = false||false;
+
+// || Operator a false  && false hole false baki sob true
 
 console.log(m);
 console.log(n);
+console.log(o);
+
+
+//Conditioanl 
+// ? jodi ar moto kaj kore
+//: Athoba ar kaj
+
+
+let k = 30;
+let j = 80;
+
+let h = k<j ? "True" : "False";
