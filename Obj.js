@@ -40,3 +40,18 @@ finalObj = {...Obj1, ...Obj2, ...Obj3}
 console.log(finalObj);
 console.log(mobileModel.Battry.mah);
 
+
+
+//Object constructor
+
+
+function Person (first, last) {
+    this.firstname = first , this.lastName = last
+}
+
+
+const person1 = new Person('Fazle', 'Rabby');
+const person2 = new Person('Saiyed ', 'ratul')
+
+console.log(person1);
+console.log(person2);
