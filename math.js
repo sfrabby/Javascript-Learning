@@ -19,3 +19,13 @@ console.log(Math.max(1,2,3,4,5,6,7,8));
 console.log(Math.PI);
 //Sign value
 console.log(Math.sign(45*Math.PI/180));
+
+
+//Random Number
+console.log(Math.floor(Math.random().toFixed(3)*10)); 
+
+//Ludu Dice
+let upperValue = 6;
+let lowerValue = 1;
+let result = Math.ceil(Math.random()*upperValue);
+console.log(result);
